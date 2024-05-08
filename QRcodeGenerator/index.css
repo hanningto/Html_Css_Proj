@@ -1,55 +1,49 @@
-.container{
+body{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 300px;
-    background-color: antiquewhite;
-}
-.qr-box{
-    display: flex;
     flex-direction: column;
+    flex-direction: column;
+    background-color: rgb(206, 215, 240);
+    width: 100vw;
+    height: 100vw;
+    
+}
+.Container{
+    display: flex;
     justify-content: center;
-    background-color: white;
-    padding-top: 2px;
-    padding-bottom: 10px;
+    align-items: center;
+    margin-top: 70px;
+    margin-left:600px;
+    background-color: aliceblue;
+    flex-direction: column;
+    max-width: 20%;
     border-radius: 20px;
 }
-.text-content{
-    width: 170px;
-    padding-top:1px;
-    padding-left: 50px;
-    padding-right: 20px;
-    margin-top: 0px;
-    font-weight: 800;
-    font-size: 1em;
-    text-align: center;
-    
-}
 .image{
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    background-color: blue;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+img{
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 80%;
+    width:90%
+}
+.textparagraph{
+    padding:10px 10px 20px 30px;
+}
+.text-content-1{
+    text-align: center;
+    padding-top: 0px;
+    font-weight: bold;
+    font-size: 1em;
 }
 .text-content-2{
-    justify-content: center;
-    width: 170px;
-    margin-top:0px ;
-    padding-top:0px;
-    padding-left: 50px;
-    padding-right: 20px;
-    font-weight: 200;
-    font-size: 0.7em;
     text-align: center;
-    
-    
-}
-.img{
-    border-radius: 20;
+    font-size: 0.9em;
+    color: rgb(199, 185, 185);
 }

@@ -1,0 +1,50 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+   background-color: orange;
+    
+    
+}
+.main-content{
+    margin: 20px;
+    width: 50%;
+    grid-template-rows: 20% 60%;
+    /* gap: 15px; */
+    background-color:inherit;
+    justify-items: center;
+    justify-content: center;
+}
+
+.frameworks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: inherit;
+    gap: 20px;
+}
+.angular, .react, .vue{
+    display: grid;
+    /* grid-template-rows: ; */
+    background-color: white;
+    border-radius: 10px;
+    justify-items: center;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+
+}
+.logo{
+    height: 80px;
+}
+.css{
+    font-size: 4em;
+    justify-items: center;
+    margin-left: 90px;
+    align-items: center;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
